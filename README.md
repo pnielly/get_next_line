@@ -9,19 +9,22 @@
 In the root of the repo, type:
 
 ```bash
-#manual testing
 gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c main.c get_next_line.h -D BUFFER_SIZE=12 -o get_next_line
 ```
 
 ## Usage
+
+In the root of the repo, type:
  
  ```bash
+ #read from stdin
 ./get_next_line 0
 [type something and press enter]
 [press CTRL+D to exit]
 ```
-
+or 
 ```bash
+#read from file
 ./get_next_line toto.txt
 ```
 
