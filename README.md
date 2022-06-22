@@ -29,5 +29,5 @@ or
 ```
 
 ## Comments
-You can uncomment the indicated lines in main.c to display the return values.<b\><b/>
+You can uncomment the indicated lines in main.c to display the return values.<br>/<b/>
 You'll find a better version of this function in the project <a href="https://github.com/pnielly/GNLReborn">GNLReborn</a>.
